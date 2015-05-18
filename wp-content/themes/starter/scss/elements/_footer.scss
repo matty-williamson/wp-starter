@@ -1,0 +1,32 @@
+footer#mastfoot {
+
+	background: $secondaryColour;
+	padding: $gridGutter 0;
+	margin: $gridGutter 0 0;
+
+	ul {
+
+		list-style: none;
+
+		.menu-item {
+
+			display: inline-table;
+
+			a {
+
+				color: #fff;
+				margin: 0 $gridGutter 0 0;
+
+				&:hover {
+		
+					color: $primaryColour;
+
+				}
+
+			}
+
+		}
+
+	}
+
+}

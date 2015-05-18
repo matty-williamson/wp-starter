@@ -1,0 +1,42 @@
+#site-navigation {
+
+	ul {
+
+		list-style: none;
+
+	}	
+
+	// menu item 
+	.menu-item {
+
+		display: inline-block;
+		float: left;
+
+		a {
+
+			color: #fff;
+			padding: $gridGutter;
+			float: left;
+			text-transform: uppercase;
+
+			&:hover {
+
+				background: darken( $primaryColour, 10% );
+
+			}
+
+		}
+
+	}
+
+	@include bp($desktop) {
+
+		@include clear();
+
+		ul {
+
+		}
+
+	}
+
+}
