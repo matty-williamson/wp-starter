@@ -1,0 +1,53 @@
+::selection {
+
+  background: $primaryColour;
+  color: white;
+  text-shadow: none;
+
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+
+  height: 100%;
+  font-size: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+
+}
+
+body {
+
+  height: 100%;
+  font-family: $bodyFont;
+  color: $fontColour;
+  background: $backgroundColour;
+
+}
+
+img {
+
+  display: block;
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+
+}
+
+img[src$=".svg"] {
+
+  max-width: auto;
+  width: 100%;
+
+}
